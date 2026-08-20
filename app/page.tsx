@@ -167,7 +167,7 @@ export default function Home() {
         <div>
           <div className="sectionLabel">CONTACT</div>
           <h2>Have a question? Let's talk.</h2>
-          <p>Replace the details below with your sister's real contact information before publishing.</p>
+          {/* <p>Replace the details below with your sister's real contact information before publishing.</p> */}
         </div>
         <div className="contactCards">
           <a href="tel:+919560762187"><Phone /><span><small>Call</small><b>+91 9560762187</b></span></a>
