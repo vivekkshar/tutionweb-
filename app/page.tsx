@@ -42,7 +42,7 @@ export default function Home() {
         <div className="orb orbTwo" />
         <motion.div
           className="heroCopy"
-          initial="hidden" animate="visible" variants={fadeUp}
+          initial="hidden" animate="visible" 
         >
           <div className="eyebrow"><Sparkles size={15} /> Learning made simple</div>
           <h1>Helping young minds <span>learn with confidence.</span></h1>
@@ -96,7 +96,7 @@ export default function Home() {
       </section>
 
       <section id="about" className="section about">
-        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: .2 }} variants={fadeUp}>
+        <motion.div whileInView="visible" viewport={{ once: true, amount: .2 }} >
           <div className="sectionLabel">ABOUT THE TUITION</div>
           <h2>A calm space to ask questions, practise, and grow.</h2>
           <p>
@@ -114,7 +114,7 @@ export default function Home() {
       </section>
 
       <section id="classes" className="section light">
-        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: .15 }} variants={fadeUp}>
+        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: .15 }} >
           <div className="sectionLabel">CLASSES</div>
           <h2>Support for every stage of early learning.</h2>
           <div className="classGrid">
@@ -135,7 +135,7 @@ export default function Home() {
       </section>
 
       <section id="subjects" className="section">
-        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: .15 }} variants={fadeUp}>
+        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: .15 }} >
           <div className="sectionLabel">SUBJECTS</div>
           <h2>All the core subjects students need.</h2>
           <p className="sectionIntro">Subjects can be adjusted according to the student's class, school syllabus, and learning goals.</p>
@@ -153,7 +153,7 @@ export default function Home() {
 
       <section className="ctaSection">
         <div className="ctaGlow" />
-        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}>
+        <motion.div initial="hidden" whileInView="visible" viewport={{ once: true }} >
           <div className="sectionLabel lightLabel">READY TO START?</div>
           <h2>Let's make learning feel easier.</h2>
           <p>Get in touch to discuss your child's class, subjects, and preferred learning mode.</p>
